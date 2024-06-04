@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        footer {
+            background-color: #252525;
+            padding: 40px 10%;
+        }
+
+        #main-footer-logo {
+            margin-bottom: 20px;
+        }
+
+
+        .footer-head, .footer-main, .footer-bottom {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer-main {
+            display: flex;
+            margin: 15px auto 50px;
+        }
+
+        .footer-main-left {
+            display: flex;
+            column-gap: 70px;
+            color: #fff;
+            font-size: 14px;
+            padding-right: 10%;
+            border-right: 0.5px solid #fff;
+            min-width: 500px;
+        }
+
+        .footer-main li {
+            margin-bottom: 12px;
+        }
+
+        .footer-main li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-topic {
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 2em;
+        }
+
+
+        .footer-main-right {
+            padding-left: 50px;
+        }
+
+        .partners,
+        .social-medias {
+            display: flex;
+            align-items: center;
+        }
+
+        .partners {
+            column-gap: 30px;
+        }
+
+        .social-medias {
+            margin-top: 20px;
+            column-gap: 15px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .social-medias li:nth-child(n+5):nth-child(-n+6) img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .social-medias li:nth-child(n+7):nth-child(-n+8) a {
+            text-decoration: underline;
+            font-size: 14px;
+            color: #ddd;
+            padding-right: 10px;
+        }
+
+
+        .contact {
+            display: flex;
+            color: #fff;
+            font-size: 12px;
+            column-gap: 30px;
+        }
+
+        address {
+            display: inline-block;
+
+        }
+
+        .contact-type {
+            display: block;
+            width: 80px;
+            height: 25px;
+            color: #bbb;
+            font-weight: 600;
+        }
+
+        .footer-bottom {
+            font-size: 12px;
+            font-family: sans-serif;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .footer-bottom a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 .5em;
+
+        }
+
+        .footer-bottom a:hover {
+            color: #aaa;
+        }
+
+        .copyright {
+            color: #ccc;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+<footer>  
+    <section class="footer-head">
+        <img id="main-footer-logo" src="footer_imgs/商周logo.png" alt="商周logo"> 
+    </section>
+    <section class="footer-main">       
+        <section class="footer-main-left">
+            <div>
+                <ul>
+                    <li class="footer-topic">內容分類</li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/focus/0000000312">焦點</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/international/0000000316">國際</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/business/0000000319">財經</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/management/0000000326">管理</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/careers/0000000331">職場</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/channel/style/0000000337">共好ESG</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-topic">特色頻道</li>
+                    <li><a href="https://www.businessweekly.com.tw/opinion">名家專欄</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/featurelist.aspx">特別企劃</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/multimedia/">影音</a></li>
+                    <li><a href="https://wealth.businessweekly.com.tw/">商周財富網</a></li>
+                    <li><a href="https://health.businessweekly.com.tw/">良醫健康網</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-topic">商周線上讀</li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=2">商周封面</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=4">兩岸國際</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=8">人物報導</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/Archive/Category/Index?Type1Url=3">職場管理</a></li>
+                    <li><a
+                            href="https://bw.businessweekly.com.tw/event/payment-flash/?prodId=PROD000015814&utm_source=BWFooter&Ftag=BWFooter">申請七天試閱</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-topic">多元服務</li>
+                    <li><a
+                            href="https://www.businessweekly.com.tw/bookshop/magazine/SubscribeMain?utm_source=bwcom_footer1&utm_medium=referral">訂閱商周</a>
+                    </li>
+                    <li><a href="https://www.businessweekly.com.tw/Service?tab=">客服中心</a></li>
+                    <li><a
+                            href="https://www.businessweekly.com.tw/Service?type=QA&tab=%E7%B6%B2%E7%AB%99%E6%9C%83%E5%93%A1">常見問答</a>
+                    </li>
+                    <li><a href="https://www.businessweekly.com.tw/EventList">活動總覽</a></li>
+                    <li><a
+                            href="https://www.businessweekly.com.tw/bookshop/?utm_source=bwcom_footer1&utm_medium=referral">商周Store</a>
+                    </li>
+                    <li><a href="https://member.businessweekly.com.tw/">會員中心</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/bwevent/2021/exchange/">序號兌換</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-main-right">
+            <div>
+                <ul class="partners">
+                    <li><a href="#"><img src="footer_imgs/商周logo2.png" alt="商周"></a></li>
+                    <li><a href="https://smart.businessweekly.com.tw/" target="_blank"><img
+                                src="footer_imgs/Smart自學網logo.png" alt="Smart自學網"></a></li>
+                    <li><a href="https://health.businessweekly.com.tw/" target="_blank"><img
+                                src="footer_imgs/良醫健康logo.png" alt="良醫健康網"></a></li>
+                    <li><a href="https://alive.businessweekly.com.tw/" target="_blank"><img
+                                src="footer_imgs/alive_logo.png" alt="alive"></a></li>
+                    <li><a href="https://www.businessweekly.com.tw/bwc/" target="_blank"><img
+                                src="footer_imgs/BWE_logo.png" alt="BWE"></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="social-medias">
+                    <li><a href="https://www.facebook.com/bwnet.fans/?fref=ts" target="_blank"><img
+                                src="footer_imgs/fb_icon.png" alt="Business-Weekly-FB"></a></li>
+                    <li><a href="https://page.line.me/bwnet?openQrModal=true" target="_blank"><img
+                                src="footer_imgs/line_icon.png" alt="Business-Weekly-Line"></a></li>
+                    <li><a href="https://www.youtube.com/user/bwnet" target="_blank"><img
+                                src="footer_imgs/youtube_icon.png" alt="Business-Weekly-Youtube"></a></li>
+                    <li><a href="https://www.businessweekly.com.tw/RSS" target="_blank"><img
+                                src="footer_imgs/rss_icon.png" alt="Business-Weekly-RSS"></a></li>
+                    <li><a href="https://www.instagram.com/bwnet.tw" target="_blank"><img
+                                src="footer_imgs/instagram-icon.svg" alt="Business-Weekly-Instagram"></a></li>
+                    <li><a href="https://t.me/businessweeklytw" target="_blank"><img src="footer_imgs/telegram-icon.svg"
+                                alt="Business-Weekly-Telegram"></a></li>
+                    <li><a href="https://www.businessweekly.com.tw/bwplus/landingpage/">下載App抽好禮</a></li>
+                    <li><a href="https://www.businessweekly.com.tw/epaper">訂閱電子報</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <address><span class="contact-type">客戶服務專線</span>(02) 2510-8888</address>
+                <address><span class="contact-type">傳真</span>(02) 2503-6989</address>
+                <address><span class="contact-type">服務時間</span>週一至週五09:00~18:00 (例假日除外)</address>
+            </div>
+        </section>
+    </section>
+    <section class="footer-bottom">
+        <span class="copyright">&copy;2024 Business Weekly a division of Cite Publishing Ltd --Footer Replica by Build
+            School HsinHan.
+        </span>
+        <span>
+            <a href="https://www.businessweekly.com.tw/AboutUs" target="_blank">關於商周集團</a>
+            <a href="https://www.businessweekly.com.tw/Announcement" target="_blank">公告</a>
+            <a href="https://www.businessweekly.com.tw/CopyRight" target="_blank">文章影音授權</a>
+            <a href="https://www.businessweekly.com.tw/Service?type=AD&tab=" target="_blank">廣告合作</a>
+            <a href="https://www.businessweekly.com.tw/Service?type=QA&tab=%E7%B6%B2%E7%AB%99%E6%9C%83%E5%93%A1"
+                target="_blank">常見問題</a>
+            <a href="https://www.businessweekly.com.tw/Privacy" target="_blank">隱私權聲明</a>
+            <a href="https://www.businessweekly.com.tw/SiteMap" target="_blank">網站導覽</a>
+        </span>
+    </section>
+</footer>
+
+</html>

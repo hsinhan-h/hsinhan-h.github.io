@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            box-sizing: border-box; 
+        } */
+
+
+        table {
+            border: 2px solid black;
+            font-family: DFKai-sb, sans-serif;
+            border-collapse: collapse;
+            text-align: center;
+            margin: 10px;
+        }
+
+        tr,
+        td {
+            border: 1px solid black;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 20px;
+            margin: 10px auto;
+            width: 57%;          
+        }
+        
+        .ampm {
+            width: 40px;
+            padding: 5px;
+            line-height: 1.5em;
+            ;
+        }
+
+        .session {
+            width: 40px;
+            padding: 5px;
+        }
+
+        .time {
+            width: 45px;
+            padding: 5px;
+            text-align: center;
+            line-height: 1.5em;
+        }
+
+        tbody .time {
+            font-size: 14px;
+        }
+
+        .weekday {
+            width: 75px;
+            padding: 10px 20px;
+        }
+
+        .subject {
+            padding-top: 10px;
+        }
+        
+        .subject-name {
+            font-size: 20px;
+            display: block; 
+            height: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>屏東縣高樹鄉高樹國民小學109學年度第二學期二年甲班停課期間適用課表</caption>
+        <thead>
+            <tr>
+                <td class="ampm">午別</td>
+                <td class="session">節次</td>
+                <td class="time">時間</td>
+                <td class="weekday">一</td>
+                <td class="weekday">二</td>
+                <td class="weekday">三</td>
+                <td class="weekday">四</td>
+                <td class="weekday">五</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4" class="ampm">上<br>午</td>
+                <td class="session">預備</td>
+                <td class="time">08:40<br>09:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="session">1</td>
+                <td class="time">09:00<br>09:40</td>
+                <td class="subject"><span class="subject-name">國語</span><br>任務作業</td>
+                <td class="subject"><span class="subject-name">國語</span><br>任務作業</td>
+                <td class="subject"><span class="subject-name">數學</span><br>線上教材<br>任務作業</td>
+                <td class="subject"><span class="subject-name">彈性</span><br>任務作業</td>
+                <td class="subject"><span class="subject-name">本土語言</span><br>線上教材<br>任務作業</td>
+                
+            </tr>
+            <tr>
+                <td class="session">2</td>
+                <td class="time">10:00<br>10:40</td>
+                <td class="subject"><span class="subject-name">國語</span><br>直播教學</td>
+                <td class="subject"><span class="subject-name">數學</span><br>直播教學</td>
+                <td class="subject"><span class="subject-name">國語</span><br>直播教學</td>
+                <td class="subject"><span class="subject-name">國語</span><br>直播教學</td>
+                <td class="subject"><span class="subject-name">數學</span><br>直播教學</td>
+            </tr>
+            <tr>
+                <td class="session">3</td>
+                <td class="time">11:00<br>11:40</td>
+                <td class="subject"><span class="subject-name">數學</span><br>線上教材<br>任務作業</td>
+                <td class="subject"><span class="subject-name">生活1</span><br>線上教材</td>
+                <td class="subject"><span class="subject-name">童玩</span><br>錄播教學</td>
+                <td class="subject"><span class="subject-name">生活2</span><br>任務作業</td>
+                <td class="subject"><span class="subject-name">國語</span><br>線上教材<br>任務作業</td>
+            </tr>
+            <tr>
+                <td class="ampm">中午</td>
+                <td></td>
+                <td class="time">12:00<br>13:20</td>
+                <td colspan="5">午餐及午休</td>
+            </tr>
+            <tr>
+                <td class="ampm" rowspan="4">下<br>午</td>
+                <td></td>
+                <td class="time">13:30<br>14:10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="session">4</td>
+                <td class="time">14:20<br>15:00</td>
+                <td class="subject"><span class="subject-name">體育</span><br>線上教材<br>自主訓練</td>
+                <td class="subject"><span class="subject-name">生活3</span><br>線上教材<br>任務作業</td>
+                <td class="subject"><span class="subject-name">體育</span><br>線上教材<br>自主訓練</td>
+                <td class="subject"><span class="subject-name">生活3</span><br>線上教材<br>任務作業</td>
+                <td class="subject"><span class="subject-name">國際教育</span><br>線上教材<br>任務作業</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="time">15:00<br>15:20</td>
+                <td colspan="5">休息一下，跳跳繩</td>
+            </tr>
+            <tr>
+                <td class="session">5</td>
+                <td class="time">15:20<br>16:00</td>
+                <td class="subject"><span class="subject-name">生活2</span><br>任務作業</td>
+                <td class="subject"><span class="subject-name">健康</span><br>任務作業</td>
+                <td></td>
+                <td class="subject"><span class="subject-name">生活3</span><br>線上教材<br>任務作業</td>
+                <td class="subject"><span class="subject-name">彈性</span><br>任務作業</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
