@@ -1,0 +1,228 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft JhengHei", "Segoe UI", sans-serif;
+    box-sizing: border-box;
+}
+
+.advantages {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.advantanges-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.advantage-header__title {
+    font-size: 40px;
+    margin: 25px 0 15px;
+    color: #333333;
+}
+
+.advantage-header__title__bottom-line {
+    width: 38px;
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 42px;
+}
+
+.advantage-list {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 35px;
+
+}
+
+.advantage-link {
+    text-decoration: none;
+    color: #000;
+    border: 1px dotted #aaa;
+    border-bottom: none;
+    font-size: 18px;
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage-link__hiding--hover-white {
+    position: absolute;
+    left: -1px;
+    top: 0;
+    color: transparent;
+    border: 1px solid #ae0014;
+    background-color: #ae0014;
+    width: 100%;
+    height: 100%;
+    transform: translateY(90%);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage-link:hover .advantage-link__hiding--hover-white {
+    color: #fff;
+    transform: translateY(0%);
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .advantage-description-headerbox__title {
+    flex-direction: row-reverse;
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .advantage-description-detail {
+    left: 0;
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .advantage-description-headerbox {
+    align-self: flex-end;
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .advantage-video {
+    left: 385px;
+}
+
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .play-button {
+    left: -10px;
+}
+
+.advantages-content-wrapper {
+    display: flex;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.advantage-descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+
+.advantage-description-headerbox {
+    width: 355px;
+    height: 388px;
+    background-color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.advantage-description-headerbox__title {
+    background-color: #bb0404;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 52px;
+    font-weight: 100;
+    height: 125px;
+}
+
+.headerbox-num-tag {
+    transform: rotate(90deg);
+    font-size: 115px;
+}
+
+.advantage-description-headerbox__description {
+    color: #eee;
+    padding: 25px 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.advantage-description-headerbox__description h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.advantage-description-detail {
+    width: 600px;
+    background-color: #eee;
+    padding: 10px 25px;
+    z-index: 2;
+    position: relative;
+    left: 50px;
+}
+
+.description-head-and-hr {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.advantage-description-detail h3 {
+    font-size: 17px;
+    color: #c12222;
+    font-weight: 900;
+    line-height: 2em;
+}
+
+
+.custom-horizontal-line {
+    background-color: #c12222;
+    border: 0;
+    height: 1px;
+    flex-grow: 1;
+}
+
+.detailed-feature-title {
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    display: inline;
+    line-height: 2.2em;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.detailed-feature-content li {
+    list-style-type: none;
+    padding-left: 5px;
+    margin-left: 5px;
+    list-style-type: '\01F89E';
+    color: #444;
+    font-size: 15px;
+}
+
+.advantage-video {
+    position: relative;
+    top: 125px;
+    right: 470px;
+    z-index: 1;
+}
+
+.play-button {
+    width: 60px;
+    height: 35px;
+    background-color: #bb0404;
+    position: absolute;
+    right: -10px;
+    top: 200px;
+    display: flex;
+}
+
+.play-botton-arrow {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
