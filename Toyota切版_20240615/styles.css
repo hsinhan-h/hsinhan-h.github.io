@@ -102,6 +102,12 @@ body {
     left: -10px;
 }
 
+.advantages-main-content .advantages-content-wrapper:nth-child(even) .decoration-grey-box {
+    right: 160px;
+    height: 410px;
+    width: 550px;
+}
+
 .advantages-content-wrapper {
     display: flex;
     position: relative;
@@ -225,4 +231,13 @@ body {
     height: 20px;
     margin: auto;
     clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.decoration-grey-box {
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 440px;
+    height: 300px;
+    top: 50px;
+    right: 0;
 }
