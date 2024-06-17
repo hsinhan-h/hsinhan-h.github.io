@@ -231,6 +231,7 @@ body {
     height: 20px;
     margin: auto;
     clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+    z-index: 1;
 }
 
 .decoration-grey-box {
