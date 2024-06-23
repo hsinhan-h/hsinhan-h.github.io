@@ -257,7 +257,6 @@ header {
     height: 380px;
     display: flex;
     flex-direction: column;
-    border-radius: 5%;
     background-size: cover;
     position: relative;
     margin-bottom: 50px;
@@ -275,7 +274,7 @@ header {
     left: 0;
     filter: brightness(75%);
     z-index: -1;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 .main-about .card.responsive-tourism::before {
@@ -294,10 +293,19 @@ header {
     width: 80%;
 }
 
+.about-cards .card-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}
 
 .main-about .card-title {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -313,15 +321,7 @@ header {
 }
 
 
-.about-cards .card-link a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 40px;
-}
+
 
 /* news-section */
 .news {
@@ -529,6 +529,16 @@ header {
         padding-bottom: 50px;
     }
 
+    .main-about .card-title {
+        font-size: 20px;
+    }
+
+    .about-cards .card-link a {
+        font-size: 12.5px;
+        padding: 10px;
+    }
+
+
     .news .news-title div:first-child {
         display: flex;
         align-items: center;
@@ -653,6 +663,18 @@ header {
     .header-title h1 {
         font-size: 42px;
         transition: font-size 0.15s ease-in-out;
+    }
+
+    .main-about .card {
+        height: 500px;
+    }
+
+    .main-about .card-title {
+        font-size: 23px;
+    }
+
+    .about-cards .card-link a {
+        font-size: 13px;
     }
 
     .news-content .card-img img {
