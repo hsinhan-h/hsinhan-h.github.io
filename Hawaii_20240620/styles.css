@@ -262,6 +262,7 @@ header {
     margin-bottom: 50px;
     align-items: center;
     z-index: 2;
+    text-decoration: none;
 }
 
 .main-about .card::before {
@@ -293,14 +294,14 @@ header {
     width: 80%;
 }
 
-.about-cards .card-link a {
-    text-decoration: none;
+.about-cards .card-link {
     color: #fff;
     font-size: 11px;
     font-weight: 600;
     padding: 6px;
     border: 1px solid #fff;
     border-radius: 40px;
+    width: fit-content;
 }
 
 .main-about .card-title {
@@ -311,7 +312,16 @@ header {
     margin-bottom: 20px;
 }
 
-.main-about .card p {
+.main-about .card p:first-of-type {
+    font-size: 13px;
+    color: #fff;
+    margin-top: auto;
+    position: absolute;
+    bottom: 10%;
+    display: none;
+}
+
+.main-about .card p:last-of-type {
     margin-top: auto;
     margin-bottom: 20px;
     font-size: 10px;
@@ -320,6 +330,21 @@ header {
     font-family: arial;
 }
 
+.about-cards .card:hover .card-link {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+.about-cards .card:hover p:first-of-type {
+    display: block;
+    transition: 0.3s;
+}
+
+.about-cards .card:hover::before {
+    filter: brightness(30%);
+    transition: 0.3s;
+}
 
 
 
@@ -542,9 +567,9 @@ header {
         font-size: 20px;
     }
 
-    .about-cards .card-link a {
+    .about-cards .card-link {
         font-size: 12.5px;
-        padding: 10px;
+        padding: 8px;
     }
 
 
@@ -682,8 +707,8 @@ header {
         font-size: 23px;
     }
 
-    .about-cards .card-link a {
-        font-size: 13px;
+    .about-cards .card-link {
+        font-size: 12.5px;
     }
 
     .news-content .card-img img {
