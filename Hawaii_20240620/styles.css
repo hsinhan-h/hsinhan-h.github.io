@@ -98,7 +98,7 @@ header {
     text-decoration: none;
     font-size: 14px;
     font-weight: 900;
-    color: #777;
+    color: #6c6d6e;
 }
 
 .nav-business img {
@@ -374,6 +374,11 @@ header {
     color: #000;
 }
 
+.news-card:hover {
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
 .news-content {
     display: grid;
     grid-template: repeat(3, auto) / repeat(2, 1fr);
@@ -422,6 +427,10 @@ header {
 
 .news-content div:first-child .card-text h5 {
     font-size: 20px;
+}
+
+.news-content .card-category {
+    line-height: 1.2em;
 }
 
 .news-content .card-category img {
