@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --theme-blue: #4472c4;
+    --theme-sky-blue: #61beff;
+    --theme-elegant-blue: #ddeaf6;
+}
+
+body,
+input[type="text"] {
+    font-family: "Hachi Maru Pop", Microsoft JhengHei, sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+.home-page,
+.game-page {
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-page {
+    background-color: var(--theme-elegant-blue);
+    z-index: 1;
+    /* display: none; */
+}
+
+.home-page .home-wrapper {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 40px;
+    border: 1px solid var(--theme-blue);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page h1 {
+    font-size: 100px;
+    font-family: "Rampart One";
+    letter-spacing: 13px;
+    margin-bottom: 10px;
+}
+
+.home-page p {
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+
+.home-page .name-input-block {
+    width: 200px;
+    font-size: 40px;
+    border: 0;
+    border-bottom: 5px dotted black;
+}
+
+.fa-solid.fa-pencil {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.player-name-message {
+    color: red;
+}
+
+.start-button {
+    font-size: 30px;
+    background-color: var(--theme-blue);
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    padding: 0 10px 10px;
+}
+
+.start-button:hover {
+    box-shadow: 3px 3px 3px #00f3;
+}
+
+.game-page {
+    background-color: #152e54;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.game-page .game-wrapper {
+    width: 82%;
+    height: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.game-page .player-name {
+    font-size: 40px;
+}
+
+.game-page h2 {
+    margin-bottom: 2%;
+    font-size: 30px;
+    color: var(--theme-sky-blue);
+}
+
+.game-page .timer {
+    font-size: 18px;
+    color: #fff;
+}
+
+.game-page p:first-of-type {
+    color: var(--theme-sky-blue);
+
+}
+
+.game-page h2 span:first-of-type {
+    color: var(--theme-elegant-blue);
+}
+
+.game-page p:first-of-type {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.game-page .player-guess {
+    width: 300px;
+    font-size: 28px;
+}
+
+
+
+.game-page .function-and-result-blocks {
+    display: grid;
+    grid-template: repeat(3, auto) / 60% 1fr;
+    width: 100%;
+    margin-top: 35px;
+    gap: 40px 30px;
+    color: #fff;
+}
+
+.game-page .function-and-result-blocks>.button {
+    border: 2px solid var(--theme-sky-blue);
+    background-color: var(--theme-blue);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.game-page .function-and-result-blocks .guess-button {
+    border: 2px solid var(--theme-elegant-blue);
+    background-color: var(--theme-sky-blue);
+    font-size: 28px;
+    width: 70%;
+    height: 50px;
+}
+
+.game-page .function-and-result-blocks .endgame-button {
+    width: 80%;
+    height: 50%;
+    place-self: end stretch;
+}
+
+.game-page .function-and-result-blocks>.button:hover {
+    background-color: #fff;
+    color: var(--theme-blue);
+}
+
+.game-page .game-message {
+    font-size: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.game-page .hint-button {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    grid-area: 1/ 2/ span 2/ 2;
+}
+
+.game-page .guess-button {
+    width: 70%;
+}
+
+.game-result-block {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    transform: translateY(100%);
+    transition: 1s;
+    bottom: 0;
+    border-radius: 20px;
+    color: var(--theme-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 153px;
+}
+
+.game-result-block h3 {
+    line-height: 2.3em;
+    font-size: 26px;
+    text-align: center;
+}
+
+.play-again-button {
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--theme-blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.play-again-button:hover {
+    background-color: var(--theme-blue);
+    color: white;
+}

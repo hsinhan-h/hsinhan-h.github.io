@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game_JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=M+PLUS+1+Code:wght@100..700&family=Rampart+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="home-page">
+            <div class="home-wrapper">
+                <h1>終極密碼</h1>
+                <p>請輸入玩家姓名</p>
+                <div class="player-name"><input class="name-input-block" type="text"><i class="fa-solid fa-pencil"></i>
+                </div>
+                <p class="player-name-message"></p>
+                <div class="start-button">開始遊戲</div>
+            </div>
+        </section>
+
+        <section class="game-page">
+            <div class="game-wrapper">
+                <h2>Hi <span class="player-name"></span>
+                    歡迎來到終極密碼遊戲</h2>
+                <!-- <div class="timer">剩餘秒數: <span class="second">10</span></div> -->
+                <p>請猜<span class="min-number"> 1 </span> ~ <span class="max-number"> 100 </span> 的數字</p>
+                <input class="player-guess" type="text">
+                <div class="function-and-result-blocks">
+                    <p class="game-message"></p>
+                    <div class="button hint-button"><span><i class="fa-regular fa-bell"></i> 提示 </span><span>剩餘: <span
+                                class="hint-left">2</span></span></div>
+                    <div class="timer">剩餘秒數: <span class="second">60</span></div>
+                    <div class="button guess-button">猜數字</div>
+                    <div class="button endgame-button">結束遊戲</div>
+                </div>
+            </div>
+            <div class="game-result-block">
+                <h3></h3>
+                <div class="play-again-button">再來一局?</div>
+            </div>
+        </section>
+    </main>
+    <script src="number_guessing_game.js"></script>
+</body>
+
+</html>
