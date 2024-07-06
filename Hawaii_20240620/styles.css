@@ -157,11 +157,15 @@ header {
     scale: .9;
 }
 
+.main-banner.nature .knob img {
+    vertical-align: top;
+}
+
 .main-banner.nature .knob::before {
     content: '\2193';
     position: absolute;
-    right: 45%;
-    top: 35%;
+    right: 44%;
+    top: 38%;
     font-size: 20px;
 }
 
@@ -641,21 +645,32 @@ header {
         grid-template-columns: 70% 1fr;
     }
 
+    .main-banner.nature .banner-text {
+        position: relative;
+        max-width: 345px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .banner-img.nature img {
         border-top-right-radius: 3%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .main-banner.nature .knob {
-        position: absolute;
-        top: 50px;
-        right: 10%;
+        position: relative;
+        width: fit-content;
+        left: 10px;
         scale: 1;
+        margin-top: 30%;
     }
 
     .banner-text.nature p {
+        margin-top: -5px;
         writing-mode: vertical-rl;
         text-orientation: upright;
-        margin: 175px auto 0;
     }
 
     .main-banner.creature {
@@ -733,8 +748,34 @@ header {
 
 }
 
+@media screen and (min-width:1100px) {
+    .main-banner.nature .knob {
+        margin-top: 50%;
+        margin-left: auto;
+        margin-right: 80px;
+    }
+
+    .banner-text.nature p {
+        margin-top: 10%;
+        margin-left: auto;
+    }
+}
+
 @media screen and (min-width:1200px) {
     .main-title h2 {
-        font-size: 120px;
+        font-size: 130px;
+        transform: translateY(40px);
+    }
+
+    .main-title p {
+        font-size: 26px;
+    }
+
+    .main-banner.nature .knob {
+        margin-top: 70%;
+    }
+
+    .banner-text.nature p {
+        margin-top: 15%;
     }
 }
