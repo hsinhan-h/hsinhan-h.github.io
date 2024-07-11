@@ -1,0 +1,16 @@
+#add-todo_btn {
+    width: 70px;
+}
+
+.todo-box {
+    height: 100px;
+    border: 1px solid #ddd;
+}
+
+.todo-content {
+    width: 90%;
+}
+
+.todo-content button {
+    min-width: 60px;
+}
