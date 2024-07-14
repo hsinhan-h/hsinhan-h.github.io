@@ -1,0 +1,16 @@
+let scheduleData = {
+    id: '20240713',
+    year: 2024,
+    month: 7,
+    date: 13,
+    scheduleList =[
+        {
+            dataId: 32230023213,
+            start_time: '12:00',
+            end_time: '14:00',
+            color_tag: '#ffaabb',
+            title: '',
+            content: ''
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+.calendar-container {
+    max-width: 1300px;
+}
+
+.last-month_btn,
+.next-month_btn {
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.calendar-body .dates {
+    display: grid;
+    grid-template: repeat(6, 1fr)/ repeat(7, 1fr);
+    height: 88vh;
+    border: .5px solid #eee;
+}
+
+.calendar-body .dates>* {
+    border: .5px solid #eee;
+}
+
+.add-schedule_btn {
+    right: 1vw;
+    bottom: 8vw;
+    width: 50px;
+    height: 50px;
+}
+
+.last-month,
+.next-month {
+    background-color: #d5dbe0;
+    color: #666;
+}
+
+.dates .date {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-block {
+    overflow: auto;
+}
+
+.tag-color {
+    display: inline-block;
+    width: 8px;
+    height: 1.2em;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.schedule-title_tag {
+    vertical-align: middle;
+}
+
+.date-schedule:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
