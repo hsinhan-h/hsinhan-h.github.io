@@ -49,18 +49,23 @@ deleteScheduleBtn.addEventListener('click', () => removeScheduleFromLocalStorage
 
 //當date block的行程被點擊時，彈出編輯/刪除行程modal
 dates.addEventListener('click', (e) => {
+    const dateId = e.target.closest('.date-block').getAttribute('dateid');
+    selectedYear = e.target.closest('.date-block').getAttribute('year');
+    selectedMonth = e.target.closest('.date-block').getAttribute('month');
+    selectedDate = e.target.closest('.date-block').getAttribute('date');
     if (e.target.classList.contains('date-schedule') ||
         e.target.classList.contains('schedule-title_tag') ||
         e.target.classList.contains('tag-color')) {
-        const dateId = e.target.closest('.date-block').getAttribute('dateid');
-        const selectedDateData = getSchedulesFromLocalStorage().find((data) => data.id === dateId);
-        selectedYear = selectedDateData.year;
-        selectedMonth = selectedDateData.month;
-        selectedDate = selectedDateData.date;
         const dataId = e.target.closest('.date-schedule').getAttribute('dataId');
-        setModalEditInfo(dateId, selectedMonth, selectedDate, dataId);
-        modalBootStrap.show();
         selectedDataId = dataId;
+        setModalInfo(selectedYear, selectedMonth, selectedDate);
+        setModalEditInfo(dateId, selectedYear, selectedMonth, selectedDate, dataId);
+        modalBootStrap.show();
+        //date block被點擊時，彈出新增行程modal
+    } else {
+        resetModalInfo();
+        setModalInfo(selectedYear, selectedMonth, selectedDate);
+        modalBootStrap.show();
     }
 });
 
@@ -81,7 +86,7 @@ function renderCalendar(year, month) {
         if (currentDateTag) {
             currentDateTag.textContent = date;
             const dateId = dateToIdTransformer(year, month, date);
-            currentDateTag.parentNode.setAttribute('dateId', dateId);
+            setDateAttribute(currentDateTag, dateId, year, month, date);
             if ((date + firstWeekDay - 1) % 7 === 0) {
                 currentDateTag.classList.add('text-danger');
             }
@@ -93,23 +98,27 @@ function renderCalendar(year, month) {
 
     //如果第一天不是禮拜天, 把前一個月的日期渲染出來
     const totalDaysOfLastMonth = daysOfMonth(year, month - 1);
+    const lastYear = (month === 1) ? year - 1 : year;
+    const lastMonth = (month === 1) ? 12 : month - 1;
     if (firstWeekDay != 0) {
         for (let i = 1; i <= firstWeekDay; i++) {
             const lastMonthDateTag = document.querySelector(`.dates div:nth-of-type(${i}) .date`);
             const date = totalDaysOfLastMonth - firstWeekDay + i;
             lastMonthDateTag.textContent = date;
-            const dateId = dateToIdTransformer(month === 1 ? year - 1 : year, month === 1 ? 12 : month - 1, date);
-            lastMonthDateTag.parentNode.setAttribute('dateId', dateId);
+            const dateId = dateToIdTransformer(lastYear, lastMonth, date);
+            setDateAttribute(lastMonthDateTag, dateId, lastYear, lastMonth, date)
             lastMonthDateTag.closest('.date-block').classList.add('last-month');
         }
     }
 
     //把下個月的日期渲染出來
     const remainDays = (42 - (firstWeekDay + totalDaysOfThisMonth)) % 7;
+    const nextYear = (month === 12) ? year + 1 : year;
+    const nextMonth = (month === 12) ? 1 : month + 1;
     for (let date = 1; date <= remainDays; date++) {
         const nextMonthDateTag = document.querySelector(`.dates div:nth-of-type(${firstWeekDay + totalDaysOfThisMonth + date}) .date`);
-        const dateId = dateToIdTransformer(month === 12 ? year + 1 : year, month === 12 ? 1 : month + 1, date);
-        nextMonthDateTag.parentNode.setAttribute('dateId', dateId);
+        const dateId = dateToIdTransformer(nextYear, nextMonth, date);
+        setDateAttribute(nextMonthDateTag, dateId, nextYear, nextMonth, date);
         nextMonthDateTag.textContent = date;
         nextMonthDateTag.closest('.date-block').classList.add('next-month');
     }
@@ -193,14 +202,18 @@ function appendModalYearDropDown(node) {
     node.value = getCurrentYear();
 }
 
-function setModalEditInfo(dateid, month, date, dataId) {
+function setModalInfo(year, month, date) {
+    scheduleModal.querySelector('.year-dropdown').value = year;
+    scheduleModal.querySelector('.month-dropdown').value = month;
+    scheduleModal.querySelector('.date-dropdown').value = date;
+}
+
+function setModalEditInfo(dateid, year, month, date, dataId) {
     const scheduleData = getSchedulesFromLocalStorage();
     const targetData = scheduleData.find((data) => data.id === dateid);
     const scheduleDetail = targetData.scheduleList.find((schedule) => schedule.dataId === parseInt(dataId));
     scheduleModal.classList.add('in-edit');
     scheduleModal.querySelector('.modal-title').textContent = "Edit Schedule";
-    scheduleModal.querySelector('.month-dropdown').value = month;
-    scheduleModal.querySelector('.date-dropdown').value = date;
     scheduleModal.querySelector('.start-from').value = scheduleDetail.start_time;
     scheduleModal.querySelector('.end-at').value = scheduleDetail.end_time;
     scheduleModal.querySelector('#schedule-color-tag').value = scheduleDetail.color_tag;
@@ -208,6 +221,7 @@ function setModalEditInfo(dateid, month, date, dataId) {
     scheduleModal.querySelector('#schedule-description').value = scheduleDetail.content;
     scheduleModal.querySelector('.delete_btn').classList.remove('d-none');
 }
+
 
 function resetModalInfo() {
     scheduleModal.classList.remove('in-edit');
@@ -346,4 +360,10 @@ function dateToIdTransformer(year, month, date) {
     return year.toString() + paddedMonth + paddedDate;
 }
 
+function setDateAttribute(dateTag, dateId, year, month, date) {
+    dateTag.parentNode.setAttribute('dateId', dateId);
+    dateTag.parentNode.setAttribute('year', year);
+    dateTag.parentNode.setAttribute('month', month);
+    dateTag.parentNode.setAttribute('date', date);
+}
 

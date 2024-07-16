@@ -1,5 +1,5 @@
 .calendar-container {
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 .last-month_btn,
@@ -64,4 +64,8 @@
 .date-schedule:hover {
     background-color: #eee;
     cursor: pointer;
+}
+
+.date-block:hover {
+    border: .5px solid rgba(13, 202, 240, 0.5);
 }
