@@ -69,18 +69,14 @@ dates.addEventListener('click', (e) => {
     }
 });
 
-function renderDateBlock(node) {
-    // const firstWeekDay = new Date(year, month - 1, 1).getDay();
-    // const blockNeeded = firstWeekDay === 6 ? 42 : 35;
-    for (let i = 0; i < 42; i++) {
-        node.innerHTML += dateBlockHTML;
-    }
-}
-
 function renderCalendar(year, month) {
-    renderDateBlock(document.querySelector('.dates', year, month));
     const totalDaysOfThisMonth = daysOfMonth(year, month);
     const firstWeekDay = new Date(year, month - 1, 1).getDay();
+    const blocksNeeded = decideBlocksNeeded(firstWeekDay, totalDaysOfThisMonth);
+    for (let i = 0; i < blocksNeeded; i++) {
+        document.querySelector('.dates').innerHTML += dateBlockHTML;
+    }
+
     for (let date = 1; date <= totalDaysOfThisMonth; date++) {
         const currentDateTag = document.querySelector(`.dates div:nth-of-type(${date + firstWeekDay}) .date`);
         if (currentDateTag) {
@@ -112,7 +108,7 @@ function renderCalendar(year, month) {
     }
 
     //把下個月的日期渲染出來
-    const remainDays = (42 - (firstWeekDay + totalDaysOfThisMonth)) % 7;
+    const remainDays = blocksNeeded - (firstWeekDay + totalDaysOfThisMonth);
     const nextYear = (month === 12) ? year + 1 : year;
     const nextMonth = (month === 12) ? 1 : month + 1;
     for (let date = 1; date <= remainDays; date++) {
@@ -155,6 +151,17 @@ function renderCalendar(year, month) {
 function markDateOnCalendar(dateBlockNumber) {
     const dateBlockOfToday = document.querySelector(`.dates div:nth-of-type(${dateBlockNumber}) .date`);
     dateBlockOfToday.classList.add('bg-info', 'text-light', 'rounded-circle');
+}
+
+function decideBlocksNeeded(firstWeekDay, totalDaysOfMonth) {
+    if (firstWeekDay === 6 && totalDaysOfMonth >= 30 ||
+        firstWeekDay === 5 && totalDaysOfMonth === 31) {
+        return 42;
+    } else if (firstWeekDay === 0 && totalDaysOfMonth === 28) {
+        return 28;
+    } else {
+        return 35;
+    }
 }
 
 function moveToLastMonth() {

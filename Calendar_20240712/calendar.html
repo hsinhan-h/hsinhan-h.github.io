@@ -7,20 +7,27 @@
     <title>My Calendar_HsinHan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="calendar-container bg-secondary my-2 mx-auto d-flex flex-column align-items-center position-relative">
-        <div class="calendar-header text-light w-75 d-flex justify-content-between align-items-center px-5 py-3">
+        <div class="calendar-header text-light w-75 d-flex justify-content-between align-items-center px-5 pt-3">
             <button type="button"
-                class="last-month_btn btn btn-light rounded-circle d-flex justify-content-center align-items-center text-secondary">&lt</button>
-            <div class="year-month fs-2 fw-bold"><span class="year px-2 px-xl-3"></span><span
+                class="last-month_btn btn btn-light rounded-circle d-flex justify-content-center align-items-center text-secondary"><i
+                    class="fa-solid fa-chevron-left"></i></button>
+            <div class="year-month fw-bold"><span class="year px-2 px-xl-3"></span><span
                     class="month px-2 px-xl-3"></span>
             </div>
             <button type="button"
-                class="next-month_btn btn btn-light rounded-circle d-flex justify-content-center align-items-center text-secondary">&gt</button>
+                class="next-month_btn btn btn-light rounded-circle d-flex justify-content-center align-items-center text-secondary"><i
+                    class="fa-solid fa-chevron-right"></i></button>
         </div>
         <div class="date-controller w-100 d-flex">
             <div class="dropdown">
@@ -56,13 +63,13 @@
         </div>
         <div class="calendar-body bg-light w-100 d-flex flex-column align-items-center">
             <div class="weekdays w-100 row text-center text-secondary">
-                <div class="weekday col py-3 text-danger">Sun</div>
-                <div class="weekday col py-3">Mon</div>
-                <div class="weekday col py-3">Tue</div>
-                <div class="weekday col py-3">Wed</div>
-                <div class="weekday col py-3">Thu</div>
-                <div class="weekday col py-3">Fri</div>
-                <div class="weekday col py-3 text-success">Sat</div>
+                <div class="weekday col py-2 text-danger">Sun</div>
+                <div class="weekday col py-2">Mon</div>
+                <div class="weekday col py-2">Tue</div>
+                <div class="weekday col py-2">Wed</div>
+                <div class="weekday col py-2">Thu</div>
+                <div class="weekday col py-2">Fri</div>
+                <div class="weekday col py-2 text-success">Sat</div>
             </div>
             <div class="dates w-100 row">
                 <!-- handled by JavaScript -->
