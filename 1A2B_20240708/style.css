@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    border: 1px solid #f08c00;
+    border: 1px solid var(--theme-pineapple-orange);
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -114,15 +114,36 @@ body {
     width: 25%;
 }
 
-.button.top-scores,
-.button.restart {
+.button.top-scores {
     width: 80%;
+}
+
+.button.top-scores,
+.cheat-or-restart>.button {
     padding: 10px;
     border: 1px solid var(--theme-pineapple-orange);
     margin: 5px;
     border-radius: 20px;
     text-align: center;
 }
+
+.cheat-or-restart {
+    display: flex;
+}
+
+.button.cheat {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    background-color: var(--pineapple-light-green);
+    border: none;
+    width: fit-content;
+}
+
+.button.restart {
+    width: 170px;
+}
+
 
 .top-scores-box {
     width: 310px;

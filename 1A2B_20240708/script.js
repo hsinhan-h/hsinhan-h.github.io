@@ -104,6 +104,9 @@ topScoresBox.querySelector('.close').addEventListener('click', () => {
 })
 
 document.querySelector('.button.restart').addEventListener('click', initGame);
+document.querySelector('.button.cheat').addEventListener('click', () => {
+    alert(`The answer is ${answer}`);
+})
 
 function fillInGuessBox(number) {
     guessBoxes[userGuessArray.length].textContent = number;
@@ -138,7 +141,7 @@ function appendGuessHistory(attempt, a, b) {
 
 function checkGameWin(a) {
     if (a === 4) {
-        alert(`Congrats!You guessed the right number in ${attempt} attemps!!!`);
+        alert(`Congrats! You guessed the right number in ${attempt} attemps!!!`);
         saveRecordToLocalStorage(attempt);
     }
 }
