@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1A2B Game_Hsin Han</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="gameBoard">
+        <div class="game-header">
+            <div class="game-title">1A2B</div>
+            <div class="guess-boxes">
+                <div class="guess-box"></div>
+                <div class="guess-box"></div>
+                <div class="guess-box"></div>
+                <div class="guess-box"></div>
+            </div>
+        </div>
+        <div class="game-main">
+            <div class="game-records-field">
+                <div class="game-records">
+                    <div class="record-row header">
+                        <div class="record attempt">ATTEMPT</div>
+                        <div class="record guess">GUESSES</div>
+                        <div class="record result">RESULT</div>
+                    </div>
+                    <div class="guess-histories">
+                    </div>
+                </div>
+                <!-- <div class="game-message"></div> -->
+                <div class="button top-scores">TOP SCORES</div>
+                <div class="button restart">RESTART</div>
+            </div>
+            <div class="number-and-guess-buttons-field">
+                <div class="number-buttons">
+                    <div class="button number-input">1</div>
+                    <div class="button number-input">2</div>
+                    <div class="button number-input">3</div>
+                    <div class="button number-input">4</div>
+                    <div class="button number-input">5</div>
+                    <div class="button number-input">6</div>
+                    <div class="button number-input">7</div>
+                    <div class="button number-input">8</div>
+                    <div class="button number-input">9</div>
+                    <div class="button backward">&#8617</div>
+                    <div class="button number-input">0</div>
+                    <div class="button clear-inputs">C</div>
+                </div>
+                <div class="guess-buttons">
+                    <div class="button guess">GUESS</div>
+                    <div class="button random-pick">RANDOM PICK</div>
+                </div>
+            </div>
+        </div>
+        <div class="top-scores-box">
+            <button class="close">x</button>
+            <p>TOP SCORES</p>
+            <div class="score-row head">Attempts</div>
+            <div class="score-container">
+                <div class="score-row">1st place<span class="attempts">--</span></div>
+                <div class="score-row">2st place<span class="attempts">--</span></div>
+                <div class="score-row">3st place<span class="attempts">--</span></div>
+                <div class="score-row">4st place<span class="attempts">--</span></div>
+                <div class="score-row">5st place<span class="attempts">--</span></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
