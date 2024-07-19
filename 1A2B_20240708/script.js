@@ -6,9 +6,11 @@ const guessBtn = document.querySelector('.button.guess');
 const guessHistories = document.querySelector('.guess-histories');
 const topScoresBox = document.querySelector('.top-scores-box');
 const topScoreBtn = document.querySelector('.button.top-scores');
+let guessing;
 let answer;
 let userGuessArray = [];
 let attempt = 0;
+
 
 
 window.addEventListener('load', initGame);
@@ -22,6 +24,10 @@ function initGame() {
     guessHistories.innerHTML = "";
     appendTopScores();
     topScoresBox.style.transform = 'translateX(-98%)';
+    guessing = true;
+    if (guessBtn.classList.contains('disabled')) {
+        guessBtn.classList.remove('disabled');
+    }
 }
 
 function generateRandomFourNumbers() {
@@ -74,24 +80,26 @@ randomPickBtn.addEventListener('click', () => {
 })
 
 guessBtn.addEventListener('click', () => {
-    let a = 0;
-    let b = 0;
-    if (userGuessArray.length === 4) {
-        for (let i = 0; i < answer.length; i++) {
-            if (userGuessArray[i] === answer[i]) {
-                a++;
-            } else if (answer.includes(userGuessArray[i])) {
-                b++;
+    if (guessing) {
+        let a = 0;
+        let b = 0;
+        if (userGuessArray.length === 4) {
+            for (let i = 0; i < answer.length; i++) {
+                if (userGuessArray[i] === answer[i]) {
+                    a++;
+                } else if (answer.includes(userGuessArray[i])) {
+                    b++;
+                }
             }
+            attempt++;
+            appendGuessHistory(attempt, a, b);
+            checkGameWin(a);
+        } else {
+            alert('please guess 4 different numbers!')
         }
-        attempt++;
-        appendGuessHistory(attempt, a, b);
-        checkGameWin(a);
-    } else {
-        alert('please guess 4 different numbers!')
+        resetDisabledButtons();
+        clearGuessBox();
     }
-    resetDisabledButtons();
-    clearGuessBox();
 })
 
 topScoreBtn.addEventListener('click', () => {
@@ -143,6 +151,9 @@ function checkGameWin(a) {
     if (a === 4) {
         alert(`Congrats! You guessed the right number in ${attempt} attemps!!!`);
         saveRecordToLocalStorage(attempt);
+        guessing = false;
+        guessBtn.classList.add('disabled');
+        appendTopScores();
     }
 }
 
