@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    max-width: 1400px;
+}
+
+#map {
+    height: 60vh;
+}
+
+.fa-map:hover {
+    cursor: pointer;
+}
+
+.loading-field {
+    font-family: monospace, sans-serif;
+    opacity: 0.9;
+}
+
+.loading-spinner {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: .8em;
+}
+
+.spinner-grow {
+    width: .3em;
+    height: .3em;
+    margin-left: .2em;
+    margin-bottom: .6em;
+}
+
+.data-table-container {
+    height: 65vh;
+    overflow: auto;
+}
+
+.data-table-container thead {
+    position: sticky;
+    top: 0;
+}
