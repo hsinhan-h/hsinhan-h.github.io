@@ -6,6 +6,7 @@ function renderGalleryImages(imgs) {
   document.querySelector(".carousel-indicators").innerHTML = "";
   document.querySelector(".carousel-inner").innerHTML = "";
   const ImgQty = imgs.length;
+  let innerCarouselHTML = "";
   for (let i = 0; i < ImgQty; i++) {
     const clone = document.importNode(indicatorBtnTemplate.content, true);
     if (i === 0) {
@@ -15,14 +16,15 @@ function renderGalleryImages(imgs) {
     clone.querySelector("button").setAttribute("data-bs-slide-to", i);
     clone.querySelector("button").setAttribute("aria-label", `Slide ${i + 1}`);
     document.querySelector(".carousel-indicators").append(clone);
-    document.querySelector(".carousel-inner").innerHTML += `
+    innerCarouselHTML += `
       <div class="carousel-item">
       <img src="${imgs[i]}" class="d-block w-100"></img>
       </div>`;
-    document
-      .querySelector(".carousel-inner .carousel-item")
-      .classList.add("active");
   }
+  document.querySelector(".carousel-inner").innerHTML += innerCarouselHTML;
+  document
+    .querySelector(".carousel-inner .carousel-item")
+    .classList.add("active");
 }
 
 function renderPrice(selectedPrice) {
