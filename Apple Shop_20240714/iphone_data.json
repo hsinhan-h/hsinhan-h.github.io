@@ -1,0 +1,564 @@
+[
+  {
+    "model": "iPhone 15",
+    "initialGalleryImages": [
+      "apple_imgs/gallery/iphone-15-model-unselect-gallery-1-202309.webp",
+      "apple_imgs/gallery/iphone-15-model-unselect-gallery-2-202309.webp"
+    ],
+    "galleryImages": [
+      "apple_imgs/gallery/iphone-15-finish-select-gallery-1.webp",
+      "apple_imgs/gallery/iphone-15-finish-select-gallery-2.webp",
+      "apple_imgs/gallery/iphone-15-finish-select-gallery-3.webp",
+      "apple_imgs/gallery/iphone-15-finish-select-gallery-4.webp"
+    ],
+    "colors": [
+      { "blue": "#d5dde0" },
+      { "pink": "#edd4d7" },
+      { "yellow": "#ede8ca" },
+      { "green": "#d0dbcb" },
+      { "black": "#484c4f" }
+    ],
+    "storagesGB": ["128", "256", "512"],
+    "screen": "6.1吋顯示器",
+    "priceFloorNTD": "29,900",
+    "packagingItems": ["iPhone 15", "USB-C 充電連接線"],
+    "specifications": [
+      {
+        "sku": "iPhone-15-blue-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "128",
+        "priceNTD": "29,900"
+      },
+      {
+        "sku": "iPhone-15-blue-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "256",
+        "priceNTD": "33,400"
+      },
+      {
+        "sku": "iPhone-15-blue-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "512",
+        "priceNTD": "40,400"
+      },
+      {
+        "sku": "iPhone-15-pink-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "128",
+        "priceNTD": "29,900"
+      },
+      {
+        "sku": "iPhone-15-pink-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "256",
+        "priceNTD": "33,400"
+      },
+      {
+        "sku": "iPhone-15-pink-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "512",
+        "priceNTD": "40,400"
+      },
+      {
+        "sku": "iPhone-15-yellow-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "128",
+        "priceNTD": "29,900"
+      },
+      {
+        "sku": "iPhone-15-yellow-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "256",
+        "priceNTD": "33,400"
+      },
+      {
+        "sku": "iPhone-15-yellow-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "512",
+        "priceNTD": "40,400"
+      },
+      {
+        "sku": "iPhone-15-green-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-green-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "128",
+        "priceNTD": "29,900"
+      },
+      {
+        "sku": "iPhone-15-green-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-green-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "256",
+        "priceNTD": "33,400"
+      },
+      {
+        "sku": "iPhone-15-green-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-green-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "512",
+        "priceNTD": "40,400"
+      },
+      {
+        "sku": "iPhone-15-black-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-black-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "128",
+        "priceNTD": "29,900"
+      },
+      {
+        "sku": "iPhone-15-black-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-black-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "256",
+        "priceNTD": "33,400"
+      },
+      {
+        "sku": "iPhone-15-black-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15/iphone-15-black-1.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-2.webp",
+          "apple_imgs/gallery/iphone-15/iphone-15-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "512",
+        "priceNTD": "40,400"
+      }
+    ]
+  },
+  {
+    "model": "iPhone 15 Plus",
+    "initialGalleryImages": [
+      "apple_imgs/gallery/iphone-15-model-unselect-gallery-1-202309.webp",
+      "apple_imgs/gallery/iphone-15-model-unselect-gallery-2-202309.webp"
+    ],
+    "galleryImages": [
+      "apple_imgs/gallery/iphone-15-plus-finish-select-gallery-1.webp",
+      "apple_imgs/gallery/iphone-15-plus-finish-select-gallery-2.webp",
+      "apple_imgs/gallery/iphone-15-plus-finish-select-gallery-3.webp",
+      "apple_imgs/gallery/iphone-15-plus-finish-select-gallery-4.webp"
+    ],
+    "colors": [
+      { "blue": "#d5dde0" },
+      { "pink": "#edd4d7" },
+      { "yellow": "#ede8ca" },
+      { "green": "#d0dbcb" },
+      { "black": "#484c4f" }
+    ],
+    "storagesGB": ["128", "256", "512"],
+    "screen": "6.7吋顯示器",
+    "priceFloorNTD": "32,900",
+    "packagingItems": ["iPhone 15 Plus", "USB-C 充電連接線"],
+    "specifications": [
+      {
+        "sku": "iPhone-15-plus-blue-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "128",
+        "priceNTD": "32,900"
+      },
+      {
+        "sku": "iPhone-15-plus-blue-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "256",
+        "priceNTD": "36,400"
+      },
+      {
+        "sku": "iPhone-15-plus-blue-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-blue-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-blue_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-blue_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "512",
+        "priceNTD": "43,400"
+      },
+      {
+        "sku": "iPhone-15-plus-pink-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "128",
+        "priceNTD": "32,900"
+      },
+      {
+        "sku": "iPhone-15-plus-pink-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "256",
+        "priceNTD": "36,400"
+      },
+      {
+        "sku": "iPhone-15-plus-pink-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-pink-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-pink_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-pink_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "pink",
+        "colorZH": "粉紅色",
+        "storageGB": "512",
+        "priceNTD": "43,400"
+      },
+      {
+        "sku": "iPhone-15-plus-yellow-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "128",
+        "priceNTD": "32,900"
+      },
+      {
+        "sku": "iPhone-15-plus-yellow-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-plus-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "256",
+        "priceNTD": "36,400"
+      },
+      {
+        "sku": "iPhone-15-plus-yellow-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-yellow-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-plus-yellow_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-yellow_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "yellow",
+        "colorZH": "黃色",
+        "storageGB": "512",
+        "priceNTD": "43,400"
+      },
+      {
+        "sku": "iPhone-15-plus-green-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "128",
+        "priceNTD": "32,900"
+      },
+      {
+        "sku": "iPhone-15-plus-green-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "256",
+        "priceNTD": "36,400"
+      },
+      {
+        "sku": "iPhone-15-plus-green-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-green-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-green_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-green_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "green",
+        "colorZH": "綠色",
+        "storageGB": "512",
+        "priceNTD": "43,400"
+      },
+      {
+        "sku": "iPhone-15-plus-black-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "128",
+        "priceNTD": "32,900"
+      },
+      {
+        "sku": "iPhone-15-plus-black-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "256",
+        "priceNTD": "36,400"
+      },
+      {
+        "sku": "iPhone-15-plus-black-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-1.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-2.webp",
+          "apple_imgs/gallery/iphone-15-plus/iphone-15-plus-black-3.webp"
+        ],
+        "cartImage": "apple_imgs/cart/iphone-15-black_cart.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/iphone-15-black_packaging.jpg",
+          "apple_imgs/packaging/iphone-15-cables.jpg"
+        ],
+        "color": "black",
+        "colorZH": "黑色",
+        "storageGB": "512",
+        "priceNTD": "43,400"
+      }
+    ]
+  }
+]
