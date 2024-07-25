@@ -1,0 +1,492 @@
+[
+  {
+    "model": "iPad Air 11吋",
+    "initialGalleryImages": [
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-1-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-2-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-3-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-4-202405.jpg"
+    ],
+    "galleryImages": [
+      "apple_imgs/gallery/ipad-air-finish-select-gallery-1.jpg",
+      "apple_imgs/gallery/ipad-air-finish-select-gallery-2.jpg"
+    ],
+    "colors": [
+      { "gray": "#737176" },
+      { "blue": "#dbe8e9" },
+      { "purple": "#e3dee9" },
+      { "starlight": "#e7e2db" }
+    ],
+    "storagesGB": ["128", "256", "512"],
+    "screen": "10.86吋顯示器",
+    "priceFloorNTD": "18,200",
+    "packagingItems": [
+      "11吋 iPad Air",
+      "USB-C 充電連接線",
+      "20W USB-C 電源轉接器"
+    ],
+    "specifications": [
+      {
+        "sku": "iPad-11inch-gray-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "128",
+        "priceNTD": "18,200"
+      },
+      {
+        "sku": "iPad-11inch-gray-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "256",
+        "priceNTD": "21,700"
+      },
+      {
+        "sku": "iPad-11inch-gray-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "512",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-11inch-blue-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "128",
+        "priceNTD": "18,200"
+      },
+      {
+        "sku": "iPad-11inch-blue-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "256",
+        "priceNTD": "21,700"
+      },
+      {
+        "sku": "iPad-11inch-blue-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "512",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-11inch-purple-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "128",
+        "priceNTD": "18,200"
+      },
+      {
+        "sku": "iPad-11inch-purple-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "256",
+        "priceNTD": "21,700"
+      },
+      {
+        "sku": "iPad-11inch-purple-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "512",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-11inch-starlight-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "128",
+        "priceNTD": "18,200"
+      },
+      {
+        "sku": "iPad-11inch-starlight-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "256",
+        "priceNTD": "21,700"
+      },
+      {
+        "sku": "iPad-11inch-starlight-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-11inch/ipad-air-11inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "512",
+        "priceNTD": "28,700"
+      }
+    ]
+  },
+  {
+    "model": "iPad Air 13吋",
+    "initialGalleryImages": [
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-1-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-2-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-3-202405.jpg",
+      "apple_imgs/gallery/ipad-air-model-unselect-gallery-4-202405.jpg"
+    ],
+    "galleryImages": [
+      "apple_imgs/gallery/ipad-air-finish-select-gallery-1.jpg",
+      "apple_imgs/gallery/ipad-air-finish-select-gallery-2.jpg"
+    ],
+    "colors": [
+      { "gray": "#737176" },
+      { "blue": "#dbe8e9" },
+      { "purple": "#e3dee9" },
+      { "starlight": "#e7e2db" }
+    ],
+    "storagesGB": ["128", "256", "512"],
+    "screen": "12.9吋顯示器",
+    "priceFloorNTD": "25,200",
+    "packagingItems": [
+      "13吋 iPad Air",
+      "USB-C 充電連接線",
+      "20W USB-C 電源轉接器"
+    ],
+    "specifications": [
+      {
+        "sku": "iPad-13inch-gray-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "128",
+        "priceNTD": "25,200"
+      },
+      {
+        "sku": "iPad-13inch-gray-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "256",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-13inch-gray-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-gray-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-gray_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "gray",
+        "colorZH": "太空灰色",
+        "storageGB": "512",
+        "priceNTD": "34,000"
+      },
+      {
+        "sku": "iPad-13inch-blue-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "128",
+        "priceNTD": "25,200"
+      },
+      {
+        "sku": "iPad-13inch-blue-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "256",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-13inch-blue-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-blue-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-blue_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "blue",
+        "colorZH": "藍色",
+        "storageGB": "512",
+        "priceNTD": "34,000"
+      },
+      {
+        "sku": "iPad-13inch-purple-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "128",
+        "priceNTD": "25,200"
+      },
+      {
+        "sku": "iPad-13inch-purple-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "256",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-13inch-purple-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-purple-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-purple_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "purple",
+        "colorZH": "紫色",
+        "storageGB": "512",
+        "priceNTD": "34,000"
+      },
+      {
+        "sku": "iPad-13inch-starlight-128GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "128",
+        "priceNTD": "25,200"
+      },
+      {
+        "sku": "iPad-13inch-starlight-256GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "256",
+        "priceNTD": "28,700"
+      },
+      {
+        "sku": "iPad-13inch-starlight-512GB",
+        "galleryImages": [
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-2.jpg",
+          "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-3.jpg"
+        ],
+        "cartImage": "apple_imgs/gallery/ipad-air-13inch/ipad-air-13inch-starlight-1.jpg",
+        "packagingImage": [
+          "apple_imgs/packaging/ipad-air-starlight_packaging.jpg",
+          "apple_imgs/packaging/ipad-air-cables.jpg",
+          "apple_imgs/packaging/ipad-air-plug.jpg"
+        ],
+        "color": "starlight",
+        "colorZH": "星光色",
+        "storageGB": "512",
+        "priceNTD": "34,000"
+      }
+    ]
+  }
+]

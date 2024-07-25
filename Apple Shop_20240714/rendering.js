@@ -7,6 +7,7 @@ function renderGalleryImages(imgs) {
   document.querySelector(".carousel-inner").innerHTML = "";
   const ImgQty = imgs.length;
   let innerCarouselHTML = "";
+
   for (let i = 0; i < ImgQty; i++) {
     const clone = document.importNode(indicatorBtnTemplate.content, true);
     if (i === 0) {

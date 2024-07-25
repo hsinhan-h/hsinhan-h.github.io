@@ -17,11 +17,33 @@ let selectedStorage;
 let selectedPrice;
 let data;
 
-const iPhoneDataUrl = "iphone_data.json";
+let dataUrl = "iphone_data.json";
 async function fetchData(url) {
   return await fetch(url).then((res) => res.json());
 }
 window.addEventListener("load", initPage);
+function triggerLoadEvent() {
+  let loadEvent = new Event("load");
+  window.dispatchEvent(loadEvent);
+}
+
+document.querySelector(".ipad-link").addEventListener("click", () => {
+  dataUrl = "ipad_data.json";
+  resetPage();
+  document.querySelector(".packaging-field .packaging-content").style[
+    "background-color"
+  ] = "#f5f5f7";
+  triggerLoadEvent();
+});
+
+document.querySelector(".iphone-link").addEventListener("click", () => {
+  dataUrl = "iphone_data.json";
+  resetPage();
+  document.querySelector(".packaging-field .packaging-content").style[
+    "background-color"
+  ] = "#fbfbfd";
+  triggerLoadEvent();
+});
 
 //add button focus effect
 specSelect.addEventListener(
@@ -199,7 +221,7 @@ function updateStorageBoxPrice(selectedModel) {
 }
 
 async function initPage() {
-  data = await fetchData(iPhoneDataUrl);
+  data = await fetchData(dataUrl);
 
   // initCarousel
   const initImages = data[0].initialGalleryImages;
@@ -276,4 +298,14 @@ async function initPage() {
     clone.querySelector("p").textContent = data[0].packagingItems[i];
     document.querySelector(".packaging-content").append(clone);
   }
+}
+
+function resetPage() {
+  document.querySelectorAll(".select-box").forEach((box) => box.remove());
+  document
+    .querySelectorAll(".accessories")
+    .forEach((accessory) => accessory.remove());
+  document.querySelector(".color-selection .selected-color").textContent = "";
+  selectedStorage = null;
+  selectedColorZH = null;
 }
